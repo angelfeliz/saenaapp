@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar-default {
+  border-color: transparent !important;
+  background-color: deepskyblue !important;
+}
+
+.navbar-default container {
+  border-color: transparent !important;
+  background-color: deepskyblue !important;
+}
+
+.slide_row {
+
+}
+
+.text-slide {
+  margin: 0px;
+}
+
+.menu {
+  margin-bottom: 5%;
+}
+
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+  min-width: 2%;
+  padding: 0.5%;
+	height: auto;
+	background-color: rgb(208,224,107); /*lightgreen;*/
+}
+
+.tri-left{
+	background-color: rgb(241,242,242); /*lightgreen;*/
+  border-bottom: 5px rgb(208,224,107) solid;
+}
+
+
+.tri-right.right-top:after{
+  content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -13px;
+  top: 0px;
+	bottom: auto;
+	border: 13px solid;
+	border-color: rgb(208,224,107) transparent transparent transparent;
+}
+
+.tri-right.left-top:after{
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -13px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+  border: 13px solid;
+  border-color: rgb(241,242,242) transparent transparent transparent;
+}
+
+.round{
+  border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.chat-screen {
+  /*border-top: 1px black solid;
+  border-left: 1px black solid;
+  border-right: 1px black solid;*/
+  height: 80vh;
+  background-color: white;
+  overflow: auto;
+  background-image: url("./image/saena-background-07.jpg");
+  background-size:contain;
+}
+.text-box-container {
+  width: 100%;
+  background-color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  background-color: rgb(144,199,62);
+}
+
+.input-text_box_chat {
+  display: inline;
+  width: 100%;
+  height: 40px;
+}
+
+.btn-custom-text_box_chat {
+  margin-left: 2%;
+  display: inline;
+}
+
+.main {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  background-color: rgb(144,199,62);
+}
+
+.send-icon {
+  border: 1px rgb(208,224,107) solid;
+  background-color: rgb(208,224,107);
+  border-radius: 7px;
+}
+
+.logo_img {
+  width:13%;
+  margin: 0 auto;
+}
+
+.dot_menu:hover, .send_icon:hover, .dot_menu_button:hover, .detail_calc:hover {
+  cursor:pointer;
+}
+
+.dot_menu {
+  background: rgb(241,242,242);
+  display: table;
+}
+
+.dot_menu_ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.dot_menu_ul li {
+  /*padding: 30px 0px 0px 30px;*/
+      padding: 2%;
+
+
+}
+.dot_menu_ul li h4{
+  margin: 0px;
+
+
+}
+.dot_menu_ul li:hover {
+  background-color: rgb(144,199,62);
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dot_menu_button, .send_icon {
+  color:white;
+}
+
+.center_boos_elemet {
+   float: none;
+   margin: 0 auto;
+  }
+
+  .calc_btn{
+    background-color: rgb(144,199,62);
+    margin-bottom: 1%;
+  }
+
+  .background_form_gray {
+    background-color: rgb(241,242,242);
+    height: 80vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .input_calc {
+    background-color: rgba(249,236,49,0.5);
+  }
+
+  .footer-calc {
+    background-color: rgb(144,199,62);
+    height: 8vh;
+  }
+
+.detail_space {
+  margin: 1% 0 2% 0;
+}
+
+.detail_2 {
+  margin-top: 15%;
+}
+
+.title_detail {
+  margin-bottom: 2%;
+}
+
+.ver_formulario {
+  margin-top: 3%;
+}
+.back_arrow_color {
+  color: rgb(208, 223, 107);
+}
+.arrow_back {
+  margin-top: 42%;
+}
